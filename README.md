@@ -12,8 +12,9 @@ Usage:
 
 1. `npm install` to install packages
 1. `bower install` to install vendors
-1. `gulp dist` to compile HTML, CSS and JS from sources
-1. `gulp` to automatically compile files and update page
+1. `gulp build` to compile HTML, CSS and JS from sources
+1. `gulp watch` to watch the changes
+1. `gulp` to watch, compile, and start a webserver
 
 Structure:
 
