@@ -2,7 +2,7 @@
 
 var gulp = require('gulp'),
     watch = require('gulp-watch'),
-    del = require('del'),
+    del = require('rimraf'),
     rename = require('gulp-rename'), // not used
     concat = require('gulp-concat'), // not used
     autoprefixer = require('gulp-autoprefixer'),
@@ -94,7 +94,6 @@ gulp.task('html:build', function() {
 // Styles
 gulp.task('style:build', function() {
   gulp.src(path.src.style)
-    .pipe(rigger())
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(autoprefixer())
