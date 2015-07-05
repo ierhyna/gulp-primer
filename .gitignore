@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+
+# Temp files
+*~
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled files
+dist
+
+# Dependency directory
+node_modules
+lib
