@@ -4,10 +4,20 @@
   "devDependencies": {
     "bourbon": ">=4.2.3",
     "neat": ">=1.7.2",
-    "normalize.css": ">=3.0.2"
+    "normalize.css": ">=3.0.2",
+    "jQuery": "1.11.*"
   },
   "ignore": [
     "node_modules",
-    "bower_components"
-  ]
+    "bower_components",
+    "**/.*",
+    "lib/",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/ierhyna/primer",
+  "authors": [
+    "Irina Sokolovskaja <sokolovskaja.irina@gmail.com>"
+  ],
+  "license": "MIT"
 }
