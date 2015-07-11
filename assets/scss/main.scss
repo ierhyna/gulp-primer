@@ -1,1 +1,7 @@
-@import "../../lib/normalize.css/normalize.css";
+//= ../lib/normalize.css/normalize.css
+@import '../../lib/bourbon/app/assets/stylesheets/_bourbon.scss';
+@import '../../lib/neat/app/assets/stylesheets/_neat.scss';
+
+body {
+	background: #f5f5f5;
+}
