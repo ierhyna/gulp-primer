@@ -13,4 +13,4 @@ Structure:
 - sass: SCSS files
 - stylesheets: CSS files
 
-Author: [Irina Sokolovskaya](http://github.com/ierhyna)
+Author: [Irina Sokolovskaja](http://github.com/ierhyna)
