@@ -2,6 +2,7 @@
 
 var gulp = require('gulp'),
     rename = require('gulp-rename'),
+    del = require('del'),
     concat = require('gulp-concat'),
     cssmin = require('gulp-minify-css'),
     uglify = require('gulp-uglify'),
@@ -19,14 +20,14 @@ var path = {
   src: {
     html: './*.html', 
     js: 'js/*.js',
-    style: 'sass/main.scss'
+    style: 'sass/*.scss'
   },
   watch: {
     html: './*.html', 
     js: 'js/*.js',
     style: 'sass/**/*.scss'
   },
-  clean: 'stylesheets/'
+  clean: './stylesheets/*'
 };
 
 // Browser Sync
