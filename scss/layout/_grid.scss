@@ -1,0 +1,9 @@
+$susy: (
+  columns: 12,
+  gutters: 0.25,
+  container: 1170px
+);
+
+.wrap {
+  @include container;
+}

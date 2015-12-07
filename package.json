@@ -1,0 +1,32 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "base",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Irina Sokolovskaja",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.9.12",
+    "del": "^2.1.0",
+    "eslint": "^1.10.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "imagemin-pngquant": "^4.2.0",
+    "stylelint": "^2.3.1",
+    "vinyl-ftp": "^0.4.5"
+  }
+}
