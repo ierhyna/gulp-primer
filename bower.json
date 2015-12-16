@@ -1,11 +1,11 @@
 {
-  "name": "base",
-  "description": "base",
-  "main": "index.html",
+  "name": "test-gulp-primer",
+  "description": "",
+  "main": "",
   "authors": [
     "Irina Sokolovskaja"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "moduleType": [],
   "homepage": "",
   "private": true,
@@ -13,8 +13,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "test"
   ],
   "dependencies": {
     "sanitize-css": "~3.0.0",

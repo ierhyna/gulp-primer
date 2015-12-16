@@ -1,21 +1,21 @@
 {
-  "name": "gulp-primer",
-  "version": "1.0.0",
-  "description": "Primer is a beginning template for web site frontend",
+  "name": "test-gulp-primer",
+  "version": "0.1.0",
+  "description": "",
   "keywords": [
     "template"
   ],
-  "homepage": "https://github.com/ierhyna/gulp-primer#readme",
+  "homepage": "http://bitbucket.org/test-gulp-primer#readme",
   "author": {
-    "name": "Irina Sokolovskaya",
-    "homepage": "http://github.com/ierhyna"
+    "name": "Irina Sokolovskaja",
+    "homepage": "http://bitbucket.org/ierhyna"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ierhyna/gulp-primer.git"
+    "url": "git+ssh://git@bitbucket.org/ierhyna/test-gulp-primer.git"
   },
   "bugs": {
-    "url": "https://github.com/ierhyna/gulp-primer/issues"
+    "url": "https://bitbucket.org/ierhyna/test-gulp-primer/issues"
   },
   "devDependencies": {
     "browser-sync": "^2.9.12",
