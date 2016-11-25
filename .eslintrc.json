@@ -8,5 +8,7 @@
     "ecmaVersion": 6
   },
   "globals": {},
-  "rules": {}
+  "rules": {
+    "comma-dangle": ["error", "never"]
+  }
 }
