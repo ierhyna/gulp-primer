@@ -15,4 +15,5 @@ A starter Gulp boilerplate for frontend project.
 ## About
 
 Author: [Irina Sokolovskaja](http://github.com/ierhyna)
+
 License: MIT
