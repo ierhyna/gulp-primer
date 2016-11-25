@@ -6,13 +6,16 @@
   "scripts": {
     "gulp": "gulp",
     "start": "npm run gulp",
-    "test": "stylelint",
+    "test": "stylelint '**/*.scss' && eslint '**/*.js'; exit 0",
     "lint-staged": "lint-staged",
     "stylelint": "stylelint '**/*.scss'; exit 0",
-    "stylelint-staged": "stylelint --syntax scss"
+    "stylelint-staged": "stylelint --syntax scss",
+    "eslint": "eslint '**/*.js' --fix; exit 0",
+    "eslint-staged": "eslint"
   },
   "lint-staged": {
-    "*.scss": "stylelint-staged"
+    "*.scss": "stylelint-staged",
+    "*.js": "eslint-staged"
   },
   "pre-commit": "lint-staged",
   "private": true,
