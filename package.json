@@ -1,21 +1,22 @@
 {
-  "name": "test-gulp-primer",
-  "version": "0.1.0",
-  "description": "",
+  "name": "gulp-primer",
+  "version": "1.0.0",
+  "description": "Quick start template for a projet",
+  "private": true,
   "keywords": [
     "template"
   ],
-  "homepage": "http://bitbucket.org/test-gulp-primer#readme",
+  "homepage": "https://github.com/ierhyna/gulp-primer",
   "author": {
     "name": "Irina Sokolovskaja",
-    "homepage": "http://bitbucket.org/ierhyna"
+    "homepage": "https://github.com/ierhyna/"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ierhyna/test-gulp-primer.git"
+    "url": "git+ssh://git@github.com:ierhyna/gulp-primer.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/ierhyna/test-gulp-primer/issues"
+    "url": "https://github.com/ierhyna/gulp-primer/issues"
   },
   "devDependencies": {
     "browser-sync": "^2.9.12",
