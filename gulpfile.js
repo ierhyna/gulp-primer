@@ -8,7 +8,7 @@ const autoprefixer = require('autoprefixer');
 
 const PATH = {
   src: {
-    css: './src/scss/*.scss',
+    css: './src/scss/*.scss', // Only first-level files
     js: './src/js/*.js',
     html: './src/*.html'
   },
@@ -18,7 +18,7 @@ const PATH = {
     html: './dist'
   },
   watch: {
-    css: './src/scss/**/*.scss',
+    css: './src/scss/**/*.scss', // Include files from subfolder
     js: './src/js/*.js',
     html: './src/*.html'
   }
@@ -52,13 +52,17 @@ gulp.task('JS', () => gulp.src(PATH.src.js)
 
 // HTML
 gulp.task('HTML', () => gulp.src(PATH.src.html)
-.pipe(gulp.dest(PATH.dest.html))
-.pipe(browserSync.reload({ stream: true })));
+  .pipe(gulp.dest(PATH.dest.html)) // Just copy html files to dest/
+  .pipe(browserSync.reload({ stream: true })));
 
 // Watch
 gulp.task('WATCH', () => {
   watch([PATH.watch.css], () => {
     gulp.start('CSS');
+  });
+
+  watch([PATH.watch.js], () => {
+    gulp.start('JS');
   });
 
   watch([PATH.watch.html], () => {
